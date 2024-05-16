@@ -1,0 +1,11 @@
+*{
+    background-color: black;
+    margin: 0px;
+    padding: 0px;
+}
+/* element selecto */
+h1{
+    color: aqua;
+}
+/* class selector */
+.mypara

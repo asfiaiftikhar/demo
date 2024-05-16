@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="" type="image/x-icon">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-
+    DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+     <link rel="stylesheet" href="./css/style (1).css">
+     <link rel="stylesheet" href="./css/phone.css">
+    <title>Artspot</title>
+</head>
+<body>
+    <!-- nav-bar -->
+    <div class="navbar">
+        <div class="openMenu"><h1><i class="fa-brands fa-windows"></i></h1></div>
+        <div class="logo"><h1><i class="fa-solid fa-palette"></i>ArtSpot</h1></div>
+        <ul class="nav-items">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./Paint.html">Paint</a></li>
+            <li><a href="./Brush.html">Brush</a></li>
+            <li><a href="./oil.html">Oil</a></li>
+            <li><a href="./canvas.html">Canvas</a></li>
+            <li><a href="./Sketchbook.html">SketchBook</a></li>
+        </ul>
+        <div class="cart"><h1><i class="fa-solid fa-cart-shopping"></i></h1><span class="count">99+</span></div>
+    </div>
+    <div class="mblMenu">
+        <ul class="mbl-nav-items">
+            <li><a href="./index.html">Home</a></li>
+            <li><a href="./Paint.html">Paint</a></li>
+            <li><a href="./Brush.html">Brush</a></li>
+            <li><a href="../oil.html">Oil</a></li>
+            <li><a href="./canvas.html">Canvas</a></li>
+            <li><a href="./Sketchbook.html">SketchBook</a></li>
+            <h1 class="closeMenu"><i class="fa-solid fa-xmark"></i></h1>
+        </ul>
+    </div>
+
+    <div class="cartMenu">
+        <ol class="cart-items">
+            <li>Painting Color - (RS 1000)</li>
+            <li>pencil Color - (RS 800)</li>
+            <li>Spary Color - (RS 5000)</li>
+            <li class="total">Total : RS 6800 </li>
+            <h1 class="CloseCart"><i class="fa-solid fa-xmark"></i></h1>
+        </ol>
+    </div>
+
+    <!-- Main -->
+    <div class="main-container">
+        <div class="main-cards">
+            <div class="main-card">
+                <img src="data:image/jpeg;base64,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" alt="">
+                <h3>Kokuyo Camlin  </h3>
+                <p>2 12x12 Canvas</p>
+                <p>Rs : 2000</p>
+                <button>Add To Cart</button>
+            </div>
+        </div>
+    
+    <div class="main-card">
+        <img src="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBw8QEBUPDw8PDw8VDw8PDw8PDxUPDw8PFRUWFhUVFRUYHSggGBolHRUVITEhJSkrLi4uFx8zODMtNygtLisBCgoKDQ0NFQ8PFy0ZFRkrKy0tKysrKysrLSstKy03Nys3KysrLTc3LSs3KzctLSsrKzctKzctLSsrKysrKysrK//AABEIAOEA4QMBIgACEQEDEQH/xAAaAAEBAAMBAQAAAAAAAAAAAAAAAQIEBQMH/8QAMRABAAECBAIHBwUBAAAAAAAAAAECEQMEMXESsQUTITJRgZEUIkFCYXKhM1KCwdEj/8QAFwEBAQEBAAAAAAAAAAAAAAAAAAECA//EABkRAQEBAQEBAAAAAAAAAAAAAAARATESAv/aAAwDAQACEQMRAD8A+4gAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA0YmfjVV69i5lG8OZXj1RNrz6sOun6+q+UrrDj9dJ1snkrr3Sa48Y9XI6yU6yTyV15xKfGPVOup/dDk8cpxSeSut7RR4/iU9po8fw5XFJdfJXUnNUfX0T2yn6uXcPOFdKc7T4Snt0eH5c0JhXQnPfT8p7dPhDQCYVve3T9GM56r6ejSCYNuc9V4/hPb6rxvHwallpjtjeOZMHeAYUAAAAAAaM6+beaVes7y18prUxtWD0x9Xm0iCgJYUARbFgQWxYERlYsDEWxYEFsWBEZWQVCI7Y3jmL/ALAO6A5qAAAAAANPF70txqY/e9Gvnqa1Mxq8ntmHg2ismMMkEUFBFEEkUBAAQVAAAQVASUkSoV34Ep0jaFc1AAAAAAGrme95Npq5rWNl+ejUzDxe+Po8HRkZWRkggqAAAIqAAAgqAAAhKoDFJVJFdzCn3Y2jkzeeX7lP208no5qAAAAAANbNxp5tl4ZrSN1zo08fRrtjG0a7bKqiwCoKAgKIAgAAgqAAAJKpIMSQFdjKT/zp+2OT2eGS/Tp2e7moAAAAAA8c1p5vZ5Znu+cLg0sXRrNmvRrNsjJiygFRUUAEEAEBAFBBQABFQGMosoK6+Q/Tp8+cthrdHfpxvVzlsueqAAAAAAPPMd2Xowxu7OwNCrRrNmdGu6MoyYsoAAUEUQRFBEgFAQBQAEABikrKCup0ZPufylttPoufcn7p5Q3GNUAQAAAAGGL3Z2lmxr0naQc9rVNlr1aujKLCEAyAABAVBAVAACQAAEBASUWUFdHoruz939Q3mh0VPZVvHJvsb1QBAAAAASVAc2GvXq2Ia+Jq6MsWUMZWFGQigICAEgIAAAAioAgAkoSgrodE/N/H+3Qc3onWran+3SY3qgCAAAAAADm1azvLwxdXviR707zzeGLq6MsFhisKMgABBBZQkABLgqJcmQUS6XFVEAJQugN7oqfeq+2ObpuV0XPvz9k84dVjeqAIAAAAAAOdi96d5eGM2Mx353a+O6Zxl5KgDK5dEBS6ALdLiXBUGM1AyRhxx4s4pqnSmqfIAelOWxJ+ERvP+M6cjVOtURtFwa90u3achT8ZqnztH4e9GTw4+SPPt5iuVxwzpw650oqnytzdijDiNIiNos9OBKNHo7LV01cVVo7Ji17y6KRCs6oAgAAAAAA0Mz358uUNbHb2ZwpvxR2tHG2mdomXTOI8YVlGFiT8s+doZxla/jNMfkR5JdsxkfGqfLselOSo8JneZBozXHiRedKZnaJl1KMCmNKYjyekUFHLpwMSfltvMQ9KclX8aqY2vLpRQvAnoc+MjHxqqna0M4yeH+2+8zLd4DgKNejCiNKYjaLM+F6xSvClV5RQzih6WLJSMYpZWUQgAKAAAAAAAAAAlkmhkAw6qDqoZi3RhwQvCyEoliygAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP//Z" alt="">
+        <h3>Schmincke </h3>
+        <p>8x8 Canvas </p>
+        <p>Rs : 1000</p>
+        <button>Add To Cart</button>
+    </div>
+
+    <div class="main-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTTcsPGsyikFSUX57wsVWnpvC_JEHwHRqoJyw&usqp=CAU" alt="">
+        <h3>Krylon</h3>
+        <p>4 Rectangular canvas</p>
+        <p>Rs : 5000</p>
+        <button>Add To Cart</button>
+    </div>
+
+    <div class="main-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHv-llTa1FMBUlnTbqGSbX7y7CDddBImp_Cw&usqp=CAU" alt="">
+        <h3>Maries</h3>
+        <p>1 A2 Canvas</p>
+        <p>Rs : 2500</p>
+        <button>Add To Cart</button>
+    </div>
+
+    <div class="main-card">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSm4J5bEni5lFCo92mwmZ4khQeobYhzk7N_Ew&usqp=CAU" alt="">
+        <h3>liquitex</h3>
+        <p>10 Mini Canvas</p>
+        <p>Rs : 5000</p>
+        <button>Add To Cart</button>
+    </div>
+
+    <div class="main-card">
+        <img src="data:image/jpeg;base64,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" alt="">
+        <h3>Faber-Castell </h3>
+        <p>12Inches Round Canvas </p>
+        <p>Rs : 1200</p>
+        <button>Add To Cart</button>
+    </div>
+</div>
+    
+</div>
+     </div>
+    
+
+     <!-- Footer -->
+     <div class="footer">
+        <div class="footer-left">
+            <div class="logo"><h1><i class="fa-solid fa-palette"></i>ArtSpot</h1></div>
+            <p>Air plant banjo lyft occupy <br> retro adaptogen indego</p>
+        </div>
+    <div class="footer-right">
+    <div class="left left1">
+        <a href="">Home</a>
+        <a href="">paint</a>
+        <a href="">Brush</a>
+        <a href="">Oil</a>
+        <a href="">Canvas</a>
+    </div>
+    <div class="left left1">
+        <a href="">Home</a>
+        <a href="">paint</a>
+        <a href="">Brush</a>
+        <a href="">Oil</a>
+        <a href="">Canvas</a>
+    </div>
+    <div class="left left1">
+        <a href="">Home</a>
+        <a href="">paint</a>
+        <a href="">Brush</a>
+        <a href="">Oil</a>
+        <a href="">Canvas</a>
+    </div>
+    <div class="left left1">
+        <a href="">Home</a>
+        <a href="">paint</a>
+        <a href="">Brush</a>
+        <a href="">Oil</a>
+        <a href="">Canvas</a>
+    </div>
+  </div>
+</div>
+    <div class="footer-bottom">
+        <p>@ 2024 AtrSpot - @ART</p>
+        <div class="f-icons">
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-twitter"></i>
+            <i class="fa-brands fa-linkedin"></i>
+        </div>
+    </div>
+
+    <script src="./js/app.js"></script>
+
+</body>
+</html>

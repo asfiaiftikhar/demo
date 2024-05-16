@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 class="myhead">Welcome to jQuery</h1>
+    <h2 id="myclass">2311A</h2>
+    <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Excepturi quidem deleniti vitae sed voluptates nobis eligendi impedit molestias nisi sapiente?</p>
+
+
+    <button>Click Me</button>
+
+    <script src="./jquery-3.7.1.min.js"></script>
+    <script>
+
+        $(document).ready(function(){
+            $('.myhead').css("color" , "red");
+            $("#myclass").css("backgroundColor" , "yellow")
+            $('p').css({fontSize : "30px" , color : "red" , backgroundColor : "cyan"})
+
+            $('button').click(function(){
+                alert("Hello World")
+            })
+        })
+    </script>
+</body>
+</html>
